@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - work-stream</title>
+    <meta name="description" content="Learn more about work-stream">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="work-stream home">
+                <svg class="nav-logo-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                    <path d="M14 14a26 26 0 0 0 0 36M50 14a26 26 0 0 1 0 36" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+                    <path d="M22 22a14 14 0 0 0 0 20M42 22a14 14 0 0 1 0 20" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+                    <circle cx="32" cy="32" r="8" fill="currentColor"/>
+                </svg>
+                work-stream
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="nav-link active"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-wrap">
+        <div class="hero-section">
+            <h1 class="hero-title">About work-stream</h1>
+        </div>
+
+        <div class="section active">
+            <h2 class="section-header">Our Mission</h2>
+            <div style="padding: 20px; text-align: center; max-width: 860px; margin: 0 auto;">
+                <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px;">
+                    Welcome to <strong>work-stream</strong> — your guide to free streaming entertainment. We've curated a comprehensive collection of sites across movies, TV shows, anime, manga, and live TV.
+                </p>
+                <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8;">
+                    Our mission is simple: help you find quality entertainment without digging through countless websites. Whether you're into movies, anime, manga, or sports — we've got you covered.
+                </p>
+            </div>
+        </div>
+
+        <div class="section active">
+            <h2 class="section-header">The Team</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 10px;">
+
+                <!-- <div class="link-card visible" style="flex-direction: column; text-align: center; padding: 36px; min-height: auto;">
+                    <img src="https://avatars.githubusercontent.com/u/161110729?v=4"
+                         style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid var(--accent); margin-bottom: 16px;">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 4px;">Hellhorde</h3>
+                    <p style="color: var(--accent); font-weight: 700; font-size: 0.78rem; letter-spacing: 1.5px; margin-bottom: 12px; text-transform: uppercase;">Founder & Curator</p>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 16px;">Passionate about making entertainment accessible to everyone. Constantly hunting for the best streaming sites.</p>
+                    <a href="https://github.com/N3rdmade/" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); font-size: 1.3rem; transition: color 0.2s;"><i class="fab fa-github"></i></a>
+                </div>
+
+                <div class="link-card visible" style="flex-direction: column; text-align: center; padding: 36px; min-height: auto;">
+                    <img src="https://avatars.githubusercontent.com/u/84559232?v=4"
+                         style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid var(--accent); margin-bottom: 16px;">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 4px;">R</h3>
+                    <p style="color: var(--accent); font-weight: 700; font-size: 0.78rem; letter-spacing: 1.5px; margin-bottom: 12px; text-transform: uppercase;">Maintainer</p>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 16px;">Helping maintain and improve work-stream to keep it running smoothly.</p>
+                    <a href="https://github.com/rishabnotfound" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); font-size: 1.3rem; transition: color 0.2s;"><i class="fab fa-github"></i></a>
+                </div> -->
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Curated with 💜 by the work-stream Team</p>
+            <p class="copyright">&copy; 2026 work-stream. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('navToggle').addEventListener('click', () => {
+            document.getElementById('navMenu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

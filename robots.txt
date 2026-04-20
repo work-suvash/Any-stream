@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://work-stream.lol/sitemap.xml
